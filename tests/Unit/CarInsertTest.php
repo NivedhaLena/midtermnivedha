@@ -16,12 +16,12 @@ class CarInsertTest extends TestCase
      */
     public function testExample()
     {
-        $user=new Cars();
-        $user->Make='Toyota';
-        $user->Model='123456ADF';
-        $user->year='1994';
+        $car=new Cars();
+        $car->Make='Toyota';
+        $car->Model='123456ADF';
+        $car->year='1994';
         //$user->save();
        // $this->assertTrue($user->save());
-        $this->assertTrue($user=!NULL);
+        $this->assertTrue($car=!NULL);
     }
 }
